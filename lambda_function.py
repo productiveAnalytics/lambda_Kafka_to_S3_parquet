@@ -41,13 +41,12 @@ else:
 TEST_SCHEMA_NAME:str='lndcdcadsprpsl_flightrange'
 TEST_S3_BUCKET:str='lineardp-conformance-common-flink-dev'
 TEST_S3_FOLDER:str='lambda_datasync_10k'
-# KMS_KEY_ARN:str='arn:aws:kms:us-east-1:550060283415:key/1c9916d5-8214-4a84-b4ed-ae5570e2ea43' # lineardp-credential-kms-dev
-KMS_KEY_ARN:str='arn:aws:kms:us-east-1:550060283415:key/2bb9d33c-8b5b-4f67-bccc-6d9f603d7609' # lineardp-conformed-kms-dev
+KMS_KEY_ARN:str='arn:aws:kms:us-east-1:MY_AWA_ACCOUNT_NUMBER:key/2bb9d33c-8b5b-4f67-bccc-6d9f603d7609'
 
 KEY_SERIALIZATION_CTX:SerializationContext = SerializationContext(topic=TEST_SCHEMA_NAME, field=MessageField.KEY)
 VALUE_SERIALIZATION_CTX:SerializationContext = SerializationContext(topic=TEST_SCHEMA_NAME, field=MessageField.VALUE)
 
-AVRO_SCHEMA_REGISTRY_BASE_URL:str='http://dev-cdp-schema-registry-pvt.us-east-1.espndev.pvt'
+AVRO_SCHEMA_REGISTRY_BASE_URL:str='http://dev-cdp-schema-registry-pvt.us-east-1.my-avro-registry.pvt'
 SCHEMA_REGISTRY_CONF:dict={"url": AVRO_SCHEMA_REGISTRY_BASE_URL}
 AVRO_SCHEMA_REGISTRY_CLIENT:SchemaRegistryClient = SchemaRegistryClient(conf=SCHEMA_REGISTRY_CONF)
 
