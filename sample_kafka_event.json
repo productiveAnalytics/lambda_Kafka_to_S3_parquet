@@ -1,0 +1,178 @@
+{
+  "bootstrapServers": "10.122.90.115:9093,10.122.80.105:9093,10.122.85.200:9093",
+  "eventSource": "SelfManagedKafka",
+  "records": {
+    "lndcdcadsrtcrd_ratecard-1": [
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 1,
+        "offset": 0,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "NA==",
+        "value": "AAAAAYcCCAISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI1OTc3OAICAgICBAIaRVVSTyBSYXRlY2FyZAIaRVVSTyBSYXRlY2FyZAJYQWRkaXRpb24gb2YgTXVsdGktUmF0ZWNhcmQgZm9yIEludGVybmF0aW9uYWwCIAIMAgAAAgICNAxJTlNFUlQmMjAyMS0wNy0wMiAwNDowMDowMCYyMDIxLTA3LTAyIDA0OjAwOjAwEkFEU19SVENSRA==",
+        "headers": []
+      }
+    ],
+    "lndcdcadsrtcrd_ratecard-3": [
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 3,
+        "offset": 0,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "OA==",
+        "value": "AAAAAYcCEAISQURTX1JUQ1JEAjIyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MTE5AgICAgIEAixVLkEuRS4gRGlyaGFtIFJhdGVjYXJkAixVLkEuRS4gRGlyaGFtIFJhdGVjYXJkAlhBZGRpdGlvbiBvZiBNdWx0aS1SYXRlY2FyZCBmb3IgSW50ZXJuYXRpb25hbAIgAngCAAACAgI4DElOU0VSVCYyMDIxLTA3LTAyIDA0OjAwOjAwJjIwMjEtMDctMDIgMDQ6MDA6MDASQURTX1JUQ1JE",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 3,
+        "offset": 1,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "Nw==",
+        "value": "AAAAAYcCDgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MDg5MQICAgICBAIuUG91bmQgU3RlcmxpbmcgUmF0ZWNhcmQCLlBvdW5kIFN0ZXJsaW5nIFJhdGVjYXJkAlhBZGRpdGlvbiBvZiBNdWx0aS1SYXRlY2FyZCBmb3IgSW50ZXJuYXRpb25hbAIgAl4CAAACAgI3DElOU0VSVCYyMDIxLTA3LTAyIDA0OjAwOjAwJjIwMjEtMDctMDIgMDQ6MDA6MDASQURTX1JUQ1JE",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 3,
+        "offset": 2,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "OQ==",
+        "value": "AAAAAYcCEgISQURTX1JUQ1JEAjIyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MTUxAgICAgIEAi5BcmdlbnRpbmEgUGVzbyBSYXRlY2FyZAIuQXJnZW50aW5hIFBlc28gUmF0ZWNhcmQCWEFkZGl0aW9uIG9mIE11bHRpLVJhdGVjYXJkIGZvciBJbnRlcm5hdGlvbmFsAiACBgIAAAICAjkMSU5TRVJUJjIwMjEtMDctMDIgMDQ6MDA6MDAmMjAyMS0wNy0wMiAwNDowMDowMBJBRFNfUlRDUkQ=",
+        "headers": []
+      }
+    ],
+    "lndcdcadsrtcrd_ratecard-5": [
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 5,
+        "offset": 0,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "MTY=",
+        "value": "AAAAAYcCIAISQURTX1JUQ1JEAjQyMDIxLTAzLTIwIDA4OjI4OjMzLjIxMDE3NQIEAgICAgIeU2FsZXMgTGlhYmlsaXR5Ah5TYWxlcyBMaWFiaWxpdHkCTkFkZGl0aW9uIG9mIE11bHRpLVJhdGVjYXJkIGZvciBEb21lc3RpYwIgAgICAgIGAgIEMTYMSU5TRVJUJjIwMjEtMDctMDIgMDQ6MDA6MDAmMjAyMS0wNy0wMiAwNDowMDowMBJBRFNfUlRDUkQ=",
+        "headers": []
+      }
+    ],
+    "lndcdcadsrtcrd_ratecard-6": [
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 6,
+        "offset": 0,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "NQ==",
+        "value": "AAAAAYcCCgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MDEzNQICAgICBAIqTWV4aWNhbiBQZXNvIFJhdGVjYXJkAipNZXhpY2FuIFBlc28gUmF0ZWNhcmQCWEFkZGl0aW9uIG9mIE11bHRpLVJhdGVjYXJkIGZvciBJbnRlcm5hdGlvbmFsAiACMgIAAAICAjUMSU5TRVJUJjIwMjEtMDctMDIgMDQ6MDA6MDAmMjAyMS0wNy0wMiAwNDowMDowMBJBRFNfUlRDUkQ=",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 6,
+        "offset": 1,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "MTU=",
+        "value": "AAAAAYcCHgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MzIyMQICAgICBAIuUGVydXZpYW4gU29sZXMgUmF0ZWNhcmQCLlBlcnV2aWFuIFNvbGVzIFJhdGVjYXJkAlhBZGRpdGlvbiBvZiBNdWx0aS1SYXRlY2FyZCBmb3IgSW50ZXJuYXRpb25hbAIgAloCAAACAgQxNQxJTlNFUlQmMjAyMS0wNy0wMiAwNDowMDowMCYyMDIxLTA3LTAyIDA0OjAwOjAwEkFEU19SVENSRA==",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 6,
+        "offset": 2,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "MTI=",
+        "value": "AAAAAYcCGAISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MjUzOAICAgICBAIuQnJhemlsaWFuIFJlYWwgUmF0ZWNhcmQCLkJyYXppbGlhbiBSZWFsIFJhdGVjYXJkAlhBZGRpdGlvbiBvZiBNdWx0aS1SYXRlY2FyZCBmb3IgSW50ZXJuYXRpb25hbAIgAggCAAACAgQxMgxJTlNFUlQmMjAyMS0wNy0wMiAwNDowMDowMCYyMDIxLTA3LTAyIDA0OjAwOjAwEkFEU19SVENSRA==",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 6,
+        "offset": 3,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "MTA=",
+        "value": "AAAAAYcCFAISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MTg4NgICAgICBAI0QXVzdHJhbGlhbiBEb2xsYXIgUmF0ZWNhcmQCNEF1c3RyYWxpYW4gRG9sbGFyIFJhdGVjYXJkAlhBZGRpdGlvbiBvZiBNdWx0aS1SYXRlY2FyZCBmb3IgSW50ZXJuYXRpb25hbAIgAgoCAAACAgQxMAxJTlNFUlQmMjAyMS0wNy0wMiAwNDowMDowMCYyMDIxLTA3LTAyIDA0OjAwOjAwEkFEU19SVENSRA==",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 6,
+        "offset": 4,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "Ng==",
+        "value": "AAAAAYcCDAISQURTX1JUQ1JEAjIyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MDUyAgICAgIEAihOZXcgWmVhbGFuZCBSYXRlY2FyZAIoTmV3IFplYWxhbmQgUmF0ZWNhcmQCWEFkZGl0aW9uIG9mIE11bHRpLVJhdGVjYXJkIGZvciBJbnRlcm5hdGlvbmFsAiACfgIAAAICAjYMSU5TRVJUJjIwMjEtMDctMDIgMDQ6MDA6MDAmMjAyMS0wNy0wMiAwNDowMDowMBJBRFNfUlRDUkQ=",
+        "headers": []
+      }
+    ],
+    "lndcdcadsrtcrd_ratecard-7": [
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 7,
+        "offset": 0,
+        "timestamp": 1625877624954,
+        "timestampType": "CREATE_TIME",
+        "key": "Mw==",
+        "value": "AAAAAYcCBgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI1ODgzNAICAgICCAISTkVXIFJhZGlvAhJORVcgUmFkaW8CNkluaXRpYWwgTWlncmF0aW9uIGZyb20gTkNTLgIgAgICAAACAgIzDElOU0VSVCYyMDIxLTA3LTAyIDA0OjAwOjAwJjIwMjEtMDctMDIgMDQ6MDA6MDASQURTX1JUQ1JE",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 7,
+        "offset": 1,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "MTQ=",
+        "value": "AAAAAYcCHAISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MzU0MwICAgICBAIqQ2hpbGVhbiBQZXNvIFJhdGVjYXJkAipDaGlsZWFuIFBlc28gUmF0ZWNhcmQCWEFkZGl0aW9uIG9mIE11bHRpLVJhdGVjYXJkIGZvciBJbnRlcm5hdGlvbmFsAiACXAIAAAICBDE0DElOU0VSVCYyMDIxLTA3LTAyIDA0OjAwOjAwJjIwMjEtMDctMDIgMDQ6MDA6MDASQURTX1JUQ1JE",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 7,
+        "offset": 2,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "MTM=",
+        "value": "AAAAAYcCGgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MjkwNQICAgICBAIuQ29sb21iaWFuIFBlc28gUmF0ZWNhcmQCLkNvbG9tYmlhbiBQZXNvIFJhdGVjYXJkAlhBZGRpdGlvbiBvZiBNdWx0aS1SYXRlY2FyZCBmb3IgSW50ZXJuYXRpb25hbAIgAoIBAgAAAgIEMTMMSU5TRVJUJjIwMjEtMDctMDIgMDQ6MDA6MDAmMjAyMS0wNy0wMiAwNDowMDowMBJBRFNfUlRDUkQ=",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 7,
+        "offset": 3,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "MQ==",
+        "value": "AAAAAYcCAgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjMwMzQ2MQICAgICAgIcU2FsZXMgRXN0aW1hdGUCHFNhbGVzIEVzdGltYXRlAjZJbml0aWFsIE1pZ3JhdGlvbiBmcm9tIE5DUy4CIAICAgICBAICAjEMSU5TRVJUJjIwMjEtMDctMDIgMDQ6MDA6MDAmMjAyMS0wNy0wMiAwNDowMDowMBJBRFNfUlRDUkQ=",
+        "headers": []
+      }
+    ],
+    "lndcdcadsrtcrd_ratecard-0": [
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 0,
+        "offset": 0,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "Mg==",
+        "value": "AAAAAYcCBAISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI1OTI3MQICAgICBAIoVS5TLiBEb2xsYXIgUmF0ZWNhcmQCKFUuUy4gRG9sbGFyIFJhdGVjYXJkAjZJbml0aWFsIE1pZ3JhdGlvbiBmcm9tIE5DUy4CIAICAgAAAgICMgxJTlNFUlQmMjAyMS0wNy0wMiAwNDowMDowMCYyMDIxLTA3LTAyIDA0OjAwOjAwEkFEU19SVENSRA==",
+        "headers": []
+      },
+      {
+        "topic": "lndcdcadsrtcrd_ratecard",
+        "partition": 0,
+        "offset": 1,
+        "timestamp": 1625877624955,
+        "timestampType": "CREATE_TIME",
+        "key": "MTE=",
+        "value": "AAAAAYcCFgISQURTX1JUQ1JEAjQyMDIwLTEyLTA1IDA3OjAzOjMwLjI2MjE5MgICAgICBAIyQm9saXZhciBTb2JlcmFubyBSYXRlY2FyZAIyQm9saXZhciBTb2JlcmFubyBSYXRlY2FyZAJYQWRkaXRpb24gb2YgTXVsdGktUmF0ZWNhcmQgZm9yIEludGVybmF0aW9uYWwCIAKGAQIAAAICBDExDElOU0VSVCYyMDIxLTA3LTAyIDA0OjAwOjAwJjIwMjEtMDctMDIgMDQ6MDA6MDASQURTX1JUQ1JE",
+        "headers": []
+      }
+    ]
+  }
+}
