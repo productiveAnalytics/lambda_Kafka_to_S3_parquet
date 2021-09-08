@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Lambda using AWS DataWrangler to save Kafka events to S3 in parquet format 
+Resources:
+  kafkatos3awswrangler:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.7
+      CodeUri: .
+      Description: Kafka to S3 parquet using AWS DataWrangler (10000 batch size)
+      MemorySize: 1024
+      Timeout: 900
+      Role: 'arn:aws:iam::550060283415:role/lineardp-lambda-kafka-dev'
+      VpcConfig:
+        SecurityGroupIds:
+          - sg-09769e7b6903b5ecd
+        SubnetIds:
+          - subnet-f38a4a94
+          - subnet-c612ece8
+          - subnet-4220a008
+      Environment:
+        Variables:
+          BASE_FOLDER: lambda_python_10k_aws_datawrangler
+          INPUT_TOPIC: lndcdcadsprpsl_flightrange
+      Tags:
+        app: datasync
+        author: LDC
+        batch: '10000'
+      Layers:
+        - 'arn:aws:lambda:us-east-1:550060283415:layer:awswrangler-layer-2_11_0-py37:1'
+        - 'arn:aws:lambda:us-east-1:550060283415:layer:confluent-kafka-python37:2'
+        - 'arn:aws:lambda:us-east-1:580247275435:layer:LambdaInsightsExtension:14'
